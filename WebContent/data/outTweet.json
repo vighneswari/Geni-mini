@@ -1,0 +1,17 @@
+[
+  {
+    "": 1,
+    "tweet": "negative",
+    "number": 4
+  },
+  {
+    "": 2,
+    "tweet": "neutral",
+    "number": 5
+  },
+  {
+    "": 3,
+    "tweet": "positive",
+    "number": 3
+  }
+]

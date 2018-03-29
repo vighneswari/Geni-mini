@@ -1,0 +1,32 @@
+[
+  {
+    "": 1,
+    "Sentiment": "Negative",
+    "Count": 44
+  },
+  {
+    "": 2,
+    "Sentiment": "Neutral",
+    "Count": 79
+  },
+  {
+    "": 3,
+    "Sentiment": "Positive",
+    "Count": 24
+  },
+  {
+    "": 1,
+    "Sentiment": "Negative",
+    "Count": 54
+  },
+  {
+    "": 2,
+    "Sentiment": "Neutral",
+    "Count": 236
+  },
+  {
+    "": 3,
+    "Sentiment": "Positive",
+    "Count": 21
+  }
+]

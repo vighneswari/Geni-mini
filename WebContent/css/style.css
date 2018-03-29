@@ -1,0 +1,25 @@
+.navbar-inverse {
+    background-color: #00BCD4;
+    border-color:#FFF;
+}
+html,body {
+	 background-color:#EFEFEF;
+	 min-height:100%;
+}
+#tab-content {
+  width: 100%;
+}
+.fa-2x{
+	color:#FFF;
+	margin-top: -8px;
+	margin-left: 23px;
+}
+.cols{
+	padding:10px;
+	border-color: #e4e4e4;
+	background-color:#FFF;
+	margin:10px 10px 10px 10px;
+}
+h5{
+	color:#535353;
+}

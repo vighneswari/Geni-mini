@@ -1,0 +1,135 @@
+#wrapper {
+  padding-left: 250px;
+  transition: all 0.4s ease 0s;
+}
+.solo {
+	position: absolute;
+	top: 20px;
+	right: 35px;
+}
+
+#sidebar-wrapper {
+  margin-left: -250px;
+  top: 50px;
+  left: 250px;
+  width: 250px;
+  background: #FFF;
+  border-right: 2px solid rgba(224,222,222, 0.5);
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+
+#wrapper.active {
+  padding-left: 50px;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 50px;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  padding-top: 70px;
+  transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 30px;
+  width: 250px;
+  list-style: circle;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav .dropdown-menu {
+    position: relative;
+    width: 100%;
+    padding: 5px 0px;
+    margin: 15px;
+    border-radius: 0;
+    border: none;
+    background-color: #e0dede;
+    box-shadow: none;
+}
+
+.sidebar-nav li, .sidebar-nav .dropdown-menu li {
+  line-height: 40px;
+  margin-left: 0px;
+}
+
+.sidebar-nav li a {
+  color: #607d8b;
+  display: block;
+  text-decoration: none;
+  padding-left: 25px;
+  font-size: 16px;
+}
+.sidebar-nav .dropdown-menu li a{
+  color: #7F007F;
+  display: block;
+  text-decoration: none;
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.sidebar-nav li a span:before {
+  position: absolute;
+  left: 0;
+  color: #41484c;
+  text-align: center;
+  width: 20px;
+  line-height: 18px;
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li.active {
+  color: #464646;
+  background: #F7F7F7;
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+@media (max-width:767px) {
+
+#wrapper {
+  padding-left: 0;
+}
+
+#sidebar-wrapper {
+  left: 0;
+}
+
+#wrapper.active {
+  position: relative;
+  left: 250px;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 250px;
+  width: 250px;
+  transition: all 0.4s ease 0s;
+}
+}

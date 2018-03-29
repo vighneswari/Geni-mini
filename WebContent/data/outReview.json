@@ -1,0 +1,17 @@
+[
+  {
+    "": 1,
+    "Sentiment": "Negative",
+    "Count": 252
+  },
+  {
+    "": 2,
+    "Sentiment": "Neutral",
+    "Count": 826
+  },
+  {
+    "": 3,
+    "Sentiment": "Positive",
+    "Count": 129
+  }
+]
